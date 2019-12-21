@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "108810429428",
+    "firebase_url": "https://instantcash-a06ed.firebaseio.com",
+    "project_id": "instantcash-a06ed",
+    "storage_bucket": "instantcash-a06ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108810429428:android:22167b8762af5df16b0fa1",
+        "android_client_info": {
+          "package_name": "com.example.instantcash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108810429428-4vn58jbc24d742ijgihv9nfgr0tlcitj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.instantcash",
+            "certificate_hash": "46edfa119e561ad73d6922397f7b3c7bb4ca726a"
+          }
+        },
+        {
+          "client_id": "108810429428-bcrjm06rgs70kl0802v6o86bmfhhqpin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyYcnoThIrj_Cvw1zpCrL46LI1Grwjaj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108810429428-bcrjm06rgs70kl0802v6o86bmfhhqpin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".UserLoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="@drawable/gradient_background"
+        >
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+
+           android:text="Welcome TO Instant Cash"
+
+           android:textSize="30sp"
+           android:gravity="center"
+           android:textColor="#fff"
+
+           />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/gradient_background"
+        >
+        <EditText
+            android:id="@+id/login_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/textbox"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:hint="Email"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/textbox"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:hint="password"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/login_check_box"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="Remember ME"/>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            android:background="@drawable/gradient_background"
+            />
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot password"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:id="@+id/dont_have_an_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Dont Have An Account"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+</RelativeLayout>
